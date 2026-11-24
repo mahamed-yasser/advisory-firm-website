@@ -1,0 +1,4 @@
+const f=document.getElementById('cf');
+if(f){f.addEventListener('submit',e=>{e.preventDefault();const n=document.getElementById('n').value.trim(),m=document.getElementById('e').value.trim(),t=document.getElementById('m').value.trim(),er=document.getElementById('er');
+const bad=n.length<2?'Please enter your name.':!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(m)?'Please enter a valid email address.':t.length<10?'Please write at least 10 characters in the message.':'';
+if(bad){er.textContent=bad;er.hidden=false;return}er.hidden=true;f.hidden=true;const ok=document.getElementById('ok');ok.textContent='Thanks '+n+'. This is a demo, so nothing was sent.';ok.hidden=false})}
