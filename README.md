@@ -1,5 +1,9 @@
 # Advisory Firm Website
 
+![Screenshot](docs/screenshot.png)
+
+_Screenshot (local test run, fictional demo data)._
+
 Five-page English marketing site for a fictional consulting firm.
 
 **Demo project.** All businesses, products, people and numbers are fictional. Nothing is sent anywhere and no real data is collected.
